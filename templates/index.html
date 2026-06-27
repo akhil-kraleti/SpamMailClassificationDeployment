@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <main>
+    <section class='form-container'>   
+        <form action='/predict' method='POST' class='form'>
+            <!-- Replace your old input with this -->
+            <label for="mail_content">Mail_Content:</label><br>
+            <textarea id="mail_content" name="Mail_Content" rows="6"></textarea><br>
+            
+            class: {{prediction}} <br>
+            <input type='submit' value='Predict'>
+
+
+        </form>
+    </section>
+    </main>     
+</body>
+</html>

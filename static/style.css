@@ -1,0 +1,35 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh; /* Forces the background area to be at least full-screen */
+}
+
+body{
+    background-image: url('spamtheme.png');
+    background-size: cover;
+    overflow: hidden;
+    
+    
+
+}
+
+.form{
+    background-color: rgba(8, 17, 45, 0.5);
+    display:inline;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: 3px solid #2b0d57;
+    color: #f9f9fb;
+    margin-top: 110px;
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    height: 10vh;
+    margin-top: 200px;
+}
